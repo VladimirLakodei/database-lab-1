@@ -4,7 +4,7 @@
 module ItemContainer
   def self.included(base)
     base.extend(ClassMethods)
-    class_eval { include InstanceMethods }
+    base.class_eval { include InstanceMethods }
   end
 
   module ClassMethods
