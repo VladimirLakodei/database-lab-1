@@ -8,7 +8,6 @@ require_relative 'item'
 # card class
 class Card
   include ItemContainer
-  include ItemContainer::InstanceMethods
 
   attr_accessor :items
 
