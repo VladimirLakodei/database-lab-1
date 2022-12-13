@@ -1,0 +1,10 @@
+ 
+site_name: 'Allo.ua'
+source_site_url: 'https://allo.ua/'
+source_search_path: 'ua/products/mobile/proizvoditel-'
+brand: apple
+items_container_class: '.products-layout__container'
+item_container_class: '.products-layout__item'
+output_file_format: json
+items_num: 10
+output_dir: output

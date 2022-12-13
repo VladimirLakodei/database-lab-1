@@ -23,5 +23,6 @@ input_params.merge!(output_file_format: output_file_format) unless output_file_f
 parser = Parser.new(input_params)
 parser.parse!
 
+# method delegated to main_application
 parser.show_results
 parser.store_results

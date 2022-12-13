@@ -5,8 +5,8 @@ require 'csv'
 require_relative 'modules/item_container'
 require_relative 'item'
 
-# card class
-class Card
+# cart class
+class Cart
   include ItemContainer
 
   attr_accessor :items
